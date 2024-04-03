@@ -1,0 +1,10 @@
+name: Helloworld
+permissions:
+  contents: none
+on:
+  - pull_request_target
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world greetings.yml"
